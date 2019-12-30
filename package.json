@@ -1,0 +1,27 @@
+{
+  "name": "ionic-pwa-stencil-redux",
+  "private": true,
+  "version": "0.0.1",
+  "description": "ionic-pwa-stencil-redux",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch",
+    "generate": "stencil generate"
+  },
+  "dependencies": {
+    "@ionic/core": "^4.11.7",
+    "@stencil/redux": "^0.1.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^1.8.3",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
