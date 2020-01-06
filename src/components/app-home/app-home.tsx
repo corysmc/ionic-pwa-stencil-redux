@@ -39,6 +39,9 @@ export class AppHome {
     return [
       <ion-header>
         <ion-toolbar color="primary">
+          <ion-buttons slot="start">
+            <ion-menu-button />
+          </ion-buttons>
           <ion-title>Home</ion-title>
         </ion-toolbar>
       </ion-header>,

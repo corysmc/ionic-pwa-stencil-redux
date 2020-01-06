@@ -23,7 +23,16 @@ export class AppRoot {
           <ion-route url="/" component="app-home" />
           <ion-route url="/profile" component="app-profile" />
         </ion-router>
-        <ion-nav />
+        <ion-split-pane contentId="main-content">
+          <ion-menu contentId="main-content">
+            <ion-list>
+              <ion-item href="/profile">
+                <ion-label>Profile</ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-menu>
+          <ion-nav id="main-content" />
+        </ion-split-pane>
       </ion-app>
     );
   }
