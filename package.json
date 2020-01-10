@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "stencil build",
+    "build.prerender": "stencil build --prerender",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch",
@@ -21,7 +22,7 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-    "@stencil/core": "^1.9.0-9",
+    "@stencil/core": "^1.9.0-11",
     "redux-devtools-extension": "^2.13.8"
   }
 }

@@ -5,6 +5,7 @@ import { Config } from '@stencil/core';
 export const config: Config = {
   outputTargets: [{
     type: 'www',
+    baseUrl: 'https://onegoal.app',
     serviceWorker: null
   }],
   globalScript: 'src/global/app.ts',
